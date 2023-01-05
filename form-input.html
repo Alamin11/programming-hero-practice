@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML input form</title>
+    <style>
+        form label {
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>HTML Form</h1>
+    <form action="">
+        <label for="name">Your name:
+            <input type="text" name="name" id="name" placeholder="Name here plz!">
+        </label>
+        <label for="email">Email:
+            <input type="email" name="email" id="email" placeholder="Your email">
+        </label>
+        <label for="phone">Your name:
+            <input type="number" name="phone" id="phone" placeholder="Mobile number">
+        </label>
+
+        <fieldset>
+            <legend>Choose your favourite fish</legend>
+            <label for="hilsha"> <input type="radio" name="fish" id="hilsha">Hilsha
+            </label>
+            <label for="katla"> <input type="radio" name="fish" id="katla">Katla
+            </label>
+            <label for="hangor"> <input type="radio" name="fish" id="hangor">Hangor
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Choose your favourite vegetables</legend>
+            <label for="potato">
+                <input type="checkbox" name="vegetable" id="potato">Potato
+            </label>
+            <label for="brinjal">
+                <input type="checkbox" name="vegetable" id="brinjal">Brinjal
+            </label>
+            <label for="ladies-finger">
+                <input type="checkbox" name="vegetable" id="ladies-finger">Ladies Finger
+            </label>
+        </fieldset>
+        <input type="reset" value="Reset">
+        <input type="button" value="Submit">
+    </form>
+</body>
+
+</html>
